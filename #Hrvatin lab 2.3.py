@@ -8,6 +8,7 @@ fname =name[0:space]
 lname = name[space+1 :len(name)]
 print(fname.title(),lname.title())
 
+#try to do this with less variables  hint concatenate the pieces together.
 difname =name .upper()
 lowerfname =difname[0].lower()
 upperfname =difname[1:space+1]
