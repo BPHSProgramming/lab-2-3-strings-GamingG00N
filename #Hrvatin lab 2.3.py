@@ -39,7 +39,14 @@ print(phr2,"\n",phr3,"\n",phr1,"\n\n",sep="")
 
 print("Task 4")
 
-number =(int)(input("Please enter five digits\n"))
+number =(input("Please enter five digits\n"))
 
-print(number[0]+number[1]+number[2]+number[3]+number[4])
-#i am pretty lost on this part
+print((int)(number[0])+(int)(number[1])+(int)(number[2])+(int)(number[3])+(int)(number[4]),"\n\n")
+
+print("Task 5")
+
+phrase2 ="Why, you stuck-up half-witted scruffy-looking nerf herder."
+
+print(phrase2[0:len(phrase2):2])
+#idk how to do reverse
+print(phrase2[-len(phrase2):len(phrase):2])
