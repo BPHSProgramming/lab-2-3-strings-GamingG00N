@@ -30,7 +30,7 @@ print(newphrase,"\n\n")
 
 print("Task 3")
 
-thirds =(int)(len(phrase)/3)
+thirds =(int)(len(phrase)//3)
 phr1 =phrase[0:thirds]
 phr2 =phrase[thirds+1:thirds*2]
 phr3 =phrase[thirds*2+1:thirds*3]
@@ -46,7 +46,22 @@ print((int)(number[0])+(int)(number[1])+(int)(number[2])+(int)(number[3])+(int)(
 print("Task 5")
 
 phrase2 ="Why, you stuck-up half-witted scruffy-looking nerf herder."
-
 print(phrase2[0:len(phrase2):2])
-#idk how to do reverse
-print(phrase2[-len(phrase2):len(phrase):2])
+print(phrase2[len(phrase2):0:-2],"\n\n")
+
+print("Task 6")
+
+from datetime import date
+
+
+today = date.today()
+
+today = today.strftime("%Y,%B,%d")
+
+print(f"The date today is {today}")
+
+year =today[0:4]
+month =today[5:len(today)-3]
+day =today[len(today)-2:]
+
+print("The day is probably",month,day,year)
