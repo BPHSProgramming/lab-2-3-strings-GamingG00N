@@ -1,5 +1,6 @@
 #Hrvatin lab 2.3.py
 #Period 8
+#18/19
 
 print("Task 1")
 name =input("Please enter you first and last name\n")
@@ -41,7 +42,10 @@ print("Task 4")
 
 number =(input("Please enter five digits\n"))
 
+#missing part of the output
+
 print((int)(number[0])+(int)(number[1])+(int)(number[2])+(int)(number[3])+(int)(number[4]),"\n\n")
+#int(number[0])
 
 print("Task 5")
 
@@ -59,7 +63,7 @@ today = date.today()
 today = today.strftime("%Y,%B,%d")
 
 print(f"The date today is {today}")
-
+#use the find funciton to locate the break int the date.
 year =today[0:4]
 month =today[5:len(today)-3]
 day =today[len(today)-2:]
